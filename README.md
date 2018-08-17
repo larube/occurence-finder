@@ -6,9 +6,11 @@ Works on Browser and Node
 npm run build
 ```
 
-##API
+In `dist` folder, you will find node version(`occurence-finder.js`) and browseer version(`occurence-finder.umd.js`)
 
-Module exports a simpke function
+## API
+
+Module exports a simple function
 
 ```javascript
 
