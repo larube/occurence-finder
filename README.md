@@ -6,7 +6,7 @@ Works on Browser and Node
 npm run build
 ```
 
-In `dist` folder, you will find node version(`occurence-finder.js`) and browseer version(`occurence-finder.umd.js`)
+In `dist` folder, you will find node version(`occurence-finder.js`) and browser version(`occurence-finder.umd.js`)
 
 ## API
 
