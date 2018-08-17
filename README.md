@@ -10,6 +10,8 @@ npm run build
 
 Module exports a simpke function
 
+```javascript
+
 /**
  * findNbOccurencesInText
  *
@@ -24,6 +26,8 @@ Module exports a simpke function
 
 function findNbOccurencesInText(text[], needle[])
 
+```
+
 ## Node version
 
 ```javascript
@@ -31,7 +35,7 @@ const occurenceFinder = require('occurrence-finder')
 
 const text = 'Lorem ipsum ...'
 
-const nbOcurrncesInText
+const nbOcurrncesInText = occurenceFinder(text, 'lorem')
 ```
 
 ## License
