@@ -30,7 +30,7 @@ function findNbOccurencesInText(text[], needle[])
 
 ```
 
-## Node version
+## Usage
 
 ```javascript
 const occurenceFinder = require('occurrence-finder')
