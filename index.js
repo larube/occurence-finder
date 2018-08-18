@@ -1,6 +1,5 @@
-const cleanText = text => {
-  return text.replace(/['!?;,:"\'«»()`.']/g, '')
-}
+export const cleanText = text =>
+  text.replace(/['!?;,:"'«»()`.']/g, '').replace(/\s\s+/g, ' ')
 
 const findNbOccurencesInText = (text = '', needle = '') => {
   const cleanedText = cleanText(text).trim()
