@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb-base', 'prettier'],
+  globals: {
+    describe: true,
+    test: true,
+    expect: true,
+  },
 }
